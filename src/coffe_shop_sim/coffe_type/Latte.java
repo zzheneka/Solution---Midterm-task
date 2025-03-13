@@ -1,4 +1,6 @@
-package coffe_shop_sim;
+package coffe_shop_sim.coffe_type;
+
+import coffe_shop_sim.Coffee;
 
 public class Latte implements Coffee {
     public String getDescription() {

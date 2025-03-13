@@ -1,4 +1,10 @@
-package coffe_shop_sim;
+package coffe_shop_sim.factory;
+
+import coffe_shop_sim.Coffee;
+import coffe_shop_sim.coffe_type.Americano;
+import coffe_shop_sim.coffe_type.Cappuccino;
+import coffe_shop_sim.coffe_type.Latte;
+import coffe_shop_sim.coffe_type.Raf;
 
 public class CoffeeFactory {
     public static Coffee createCoffee(String type) {
